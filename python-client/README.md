@@ -85,7 +85,7 @@ with coachingangebote.ApiClient(configuration) as api_client:
     api_instance = default_api.DefaultApi(api_client)
     mz = "SA%2001" # str | Maßnahmenziel - SA%2001 = Heranführung an den Ausbildungs- und Arbeitsmarkt sowie Feststellung, Verringerung und Beseitigung von Vermittlungshemmnissen; SA%2004 = Heranführung an eine selbständige Arbeit; SA%2005 = Stabilisierung einer Beschäftigungsaufnahme.
     sw = "Vermittlungshemmnisse" # str | Suchwort (optional)
-    ort = "Feucht_90537_11.224918_49.376701" # str | Ortsangabe nebst Postleitzahl und Koordinaten (optional)
+    ort = "Feucht_90537_11.224918_49.376701" # str | Ortsangabe nebst Postleitzahl und Koordinaten (longitude und latitude) jeweils durch Unterstriche getrennt. (optional)
     pg = 1 # int | Ergebnissseite (beginnend mit 0) (optional)
     re = "BY" # str | Region/Bundesland - BW=Baden-Württemberg; BY=Bayern; BE=Berlin; BB=Brandenburg; HB=Bremen; HH=Hamburg; HE=Hessen; MV=Mecklenburg-Vorpommern; NI=Niedersachsen; NW=Nordrhei-Westfalen; RP=Rheinland-Pfalz; SL=Saarland; SN=Sachsen; ST=Sachsen-Anhalt; SH=Schleswig-Holstein; TH=Thüringen. Mehrere Komma-getrennte Angaben möglich. (optional)
     ban = 229563 # int | Anbieter-ID (optional)

@@ -167,7 +167,7 @@ class DefaultApi(object):
 
         Keyword Args:
             sw (str): Suchwort. [optional]
-            ort (str): Ortsangabe nebst Postleitzahl und Koordinaten. [optional]
+            ort (str): Ortsangabe nebst Postleitzahl und Koordinaten (longitude und latitude) jeweils durch Unterstriche getrennt.. [optional]
             pg (int): Ergebnissseite (beginnend mit 0). [optional]
             re (str): Region/Bundesland - BW=Baden-Württemberg; BY=Bayern; BE=Berlin; BB=Brandenburg; HB=Bremen; HH=Hamburg; HE=Hessen; MV=Mecklenburg-Vorpommern; NI=Niedersachsen; NW=Nordrhei-Westfalen; RP=Rheinland-Pfalz; SL=Saarland; SN=Sachsen; ST=Sachsen-Anhalt; SH=Schleswig-Holstein; TH=Thüringen. Mehrere Komma-getrennte Angaben möglich.. [optional]
             ban (int): Anbieter-ID. [optional]
